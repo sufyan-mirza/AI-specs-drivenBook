@@ -1,55 +1,60 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 0.1.0 -> 0.2.0
+Modified principles:
+  - PRINCIPLE_1: [Old Title] -> Accuracy through primary technical verification
+  - PRINCIPLE_2: [Old Title] -> Clarity for academic/technical audience
+  - PRINCIPLE_3: [Old Title] -> Reproducibility
+  - PRINCIPLE_4: [Old Title] -> Rigor
+  - PRINCIPLE_5: [Old Title] -> Spec-driven development
+  - PRINCIPLE_6: [Old Title] -> Docusaurus-native deployment
+Added sections: Key Standards
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .specify/templates/commands/*.md: ⚠ pending
+Follow-up TODOs: RATIFICATION_DATE
+-->
+# AI/Spec-Driven Book Creation — Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy through primary technical verification
+Every factual and technical claim MUST be directly verifiable against authoritative sources, specifically ROS 2, Gazebo, Unity, and NVIDIA Isaac official documentation. This principle ensures the highest level of technical correctness and prevents the dissemination of unverified information.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity for academic/technical audience
+All content, explanations, and code examples MUST be crafted for an academic and technical audience with a background in computer science and robotics. This principle ensures the material is accessible, understandable, and valuable to its target readership, avoiding oversimplification or unnecessary jargon.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility
+All tutorials, code examples, and simulations MUST run exactly as described without error or ambiguity. This principle is critical for hands-on learning, enabling readers to replicate experiments and deepen their understanding through practical application.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Rigor
+The book's content MUST primarily draw from peer-reviewed robotics and AI research articles. While other sources may supplement, a minimum of 50% of all citations MUST originate from peer-reviewed literature to maintain academic integrity and scientific credibility.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Spec-driven development
+Each chapter and its associated technical content MUST be developed using Spec-Kit Plus specifications. This structured approach ensures comprehensive coverage, consistency, and traceability of requirements and implementations throughout the book's creation process.
 
-### [PRINCIPLE_6_NAME]
+### Docusaurus-native deployment
+The entire book MUST be written, structured, and deployed using Docusaurus. This principle mandates adherence to Docusaurus-compatible formatting, markdown standards, and best practices to ensure a seamless, high-quality online publication experience.
 
+## Key Standards
 
-[PRINCIPLE__DESCRIPTION]
+All factual and technical claims must be traceable to authoritative sources.
+Citation format: APA style.
+Source types: minimum 50% peer-reviewed research articles.
+Plagiarism check: 0% tolerance before publication.
+Writing clarity: Flesch-Kincaid grade 10–12.
+Code reproducibility: ROS 2 + Gazebo + Unity + Isaac Sim examples must run.
+Docusaurus-compatible formatting and markdown standards must be follow.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Guidelines
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Code review requirements, testing gates, deployment approval process, etc.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices and guidelines. Amendments require formal documentation, approval, and a clear migration plan if changes impact existing content or workflows. All pull requests and reviews MUST verify compliance with these principles. Complexity in any solution MUST be explicitly justified against the core principles of simplicity and clarity.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.2.0 | **Ratified**: 2025-12-10 | **Last Amended**: 2025-12-10

@@ -31,7 +31,18 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Accuracy through primary technical verification**: All technical claims MUST be verifiable against authoritative sources (ROS 2, Gazebo, Unity, NVIDIA Isaac official docs).
+- [ ] **Clarity for academic/technical audience**: Content MUST be crafted for a computer science and robotics audience.
+- [ ] **Reproducibility**: All tutorials, code, and simulations MUST run exactly as described.
+- [ ] **Rigor**: Minimum 50% peer-reviewed research articles for citations.
+- [ ] **Spec-driven development**: Chapter development MUST use Spec-Kit Plus specifications.
+- [ ] **Docusaurus-native deployment**: Adherence to Docusaurus-compatible formatting and markdown standards.
+- [ ] **Key Standards Compliance**:
+    - [ ] Citation format: APA style.
+    - [ ] Plagiarism check: 0% tolerance.
+    - [ ] Writing clarity: Flesch-Kincaid grade 10–12.
+    - [ ] Code reproducibility: ROS 2 + Gazebo + Unity + Isaac Sim examples must run.
+
 
 ## Project Structure
 
