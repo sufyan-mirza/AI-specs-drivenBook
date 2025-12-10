@@ -56,7 +56,7 @@ export default {
           "label": "Textbook"
         },
         {
-          "href": "https://github.com/mohibalikhan",
+          "href": "#",
           "label": "GitHub",
           "position": "right"
         },
@@ -99,12 +99,12 @@ export default {
           "items": [
             {
               "label": "LinkedIN",
-              "href": "https://www.linkedin.com/in/mohib-ali-khan-64518a260/"
+              "href": "#"
             }
           ]
         }
       ],
-      "copyright": "@All Rights Reserved | Developed by Mohib Ali Khan"
+      "copyright": "@All Rights Reserved | Developed by sufyan mirza"
     },
     "prism": {
       "theme": {

@@ -72,7 +72,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/mohibalikhan',
+            href: '#',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,14 +110,14 @@ const config = {
             
               {
                 label: 'LinkedIN',
-                href: 'https://www.linkedin.com/in/mohib-ali-khan-64518a260/',
+                href: '#',
               },
               
             ],
           },
          
         ],
-        copyright: `@All Rights Reserved | Developed by Mohib Ali Khan`,
+        copyright: `@All Rights Reserved | Developed by sufyan mirza`,
       },
       prism: {
         theme: prismThemes.github,
