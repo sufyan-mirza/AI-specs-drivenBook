@@ -4,8 +4,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  color: #e0f2f1;
+  background: linear-gradient(135deg, #f9d423 0%, #ffb347 100%);
+  color: #3a2f00;
 }
 
 .heroContent {
@@ -27,7 +27,7 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  color: #e0f2f1;
+  color: #3a2f00;
 }
 
 .heroSubtitle {
@@ -35,7 +35,7 @@
   margin-bottom: 2rem;
   opacity: 0.9;
   line-height: 1.6;
-  color: #b2ebf2;
+  color: #5c4a00;
 }
 
 .heroButtons {
@@ -71,12 +71,12 @@
 .sectionHeader h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #00e5ff;
+  color: #f9a825;
 }
 
 .sectionHeader p {
   font-size: 1.2rem;
-  color: #607d8b;
+  color: #7a6500;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -105,11 +105,11 @@
 .featureIcon {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #00bcd4;
+  color: #fbc02d;
 }
 
 .featureCard h3 {
-  color: #00bcd4;
+  color: #f9a825;
   margin-bottom: 1rem;
 }
 
@@ -129,14 +129,14 @@
   align-items: flex-start;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: #f5fafa;
+  background: #fffde7;
   border-radius: 10px;
-  border-left: 4px solid #00e5ff;
+  border-left: 4px solid #fbc02d;
 }
 
 .moduleNumber {
-  background: #00e5ff;
-  color: #00363a;
+  background: #fbc02d;
+  color: #3a2f00;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -154,7 +154,7 @@
 }
 
 .moduleContent h3 {
-  color: #00bcd4;
+  color: #f9a825;
   margin-bottom: 1rem;
 }
 
@@ -166,8 +166,8 @@
 }
 
 .skillTag {
-  background: #b2ebf2;
-  color: #006064;
+  background: #fff59d;
+  color: #5c4a00;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -175,7 +175,7 @@
 }
 
 .moduleLink {
-  color: #00bcd4;
+  color: #f9a825;
   font-weight: 600;
   text-decoration: none;
 }
@@ -206,7 +206,7 @@
 }
 
 .hardwareTier h3 {
-  color: #00bcd4;
+  color: #f9a825;
   margin-bottom: 1.5rem;
 }
 
@@ -217,7 +217,7 @@
 
 .hardwareTier li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #e0f2f1;
+  border-bottom: 1px solid #fff9c4;
 }
 
 .hardwareTier li:last-child {
@@ -227,7 +227,7 @@
 .setupLink {
   display: inline-block;
   margin-top: 1rem;
-  color: #00bcd4;
+  color: #f9a825;
   font-weight: 600;
 }
 
@@ -246,7 +246,7 @@
 }
 
 .outcomeColumn h3 {
-  color: #00bcd4;
+  color: #f9a825;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
 }
@@ -258,14 +258,14 @@
 
 .outcomeColumn li {
   padding: 0.8rem 0;
-  border-bottom: 1px solid #e0f2f1;
+  border-bottom: 1px solid #fff9c4;
   position: relative;
   padding-left: 1.5rem;
 }
 
 .outcomeColumn li:before {
   content: "✓";
-  color: #00e5ff;
+  color: #fbc02d;
   position: absolute;
   left: 0;
   font-weight: bold;
@@ -274,8 +274,8 @@
 /* Capstone Section */
 .capstoneSection {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #141e30 0%, #243b55 100%);
-  color: #e3f2fd;
+  background: linear-gradient(135deg, #fbc02d 0%, #f57f17 100%);
+  color: #3a2f00;
 }
 
 .capstoneContent {
@@ -293,7 +293,7 @@
 .capstoneText h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #e3f2fd;
+  color: #3a2f00;
 }
 
 .capstoneText ul {
@@ -319,22 +319,22 @@
 /* CTA Section */
 .ctaSection {
   padding: 6rem 0;
-  background: #00bcd4;
-  color: #00363a;
+  background: #f9a825;
+  color: #3a2f00;
   text-align: center;
 }
 
 .ctaContent h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #00363a;
+  color: #3a2f00;
 }
 
 .ctaContent p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   opacity: 0.9;
-  color: #004d40;
+  color: #5c4a00;
 }
 
 .ctaButtons {
@@ -361,7 +361,7 @@
   display: block;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #00363a;
+  color: #3a2f00;
 }
 
 .stat span {
